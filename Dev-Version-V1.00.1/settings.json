@@ -1,0 +1,36 @@
+{
+    "lang": "en",
+    "keybinds":{
+        "walkU": {
+            "shift": false,
+            "ctrl": false,
+            "alt": false,
+            "key1": "keyW",
+            "key2": false
+        },
+        "walkD": {
+            "shift": false,
+            "ctrl": false,
+            "alt": false,
+            "key1": "keyS",
+            "key2": false
+        },
+        "walkR": {
+            "shift": false,
+            "ctrl": false,
+            "alt": false,
+            "key1": "keyD",
+            "key2": false
+        },
+        "walkL": {
+            "shift": false,
+            "ctrl": false,
+            "alt": false,
+            "key1": "keyA",
+            "key2": false
+        }
+    },
+    "video":{
+        "brightness": 1.00
+    }
+}
