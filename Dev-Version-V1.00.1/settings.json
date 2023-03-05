@@ -30,7 +30,5 @@
             "key2": false
         }
     },
-    "video":{
-        "brightness": 1.00
-    }
+    "video":{}
 }

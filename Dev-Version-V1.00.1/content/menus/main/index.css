@@ -1,0 +1,25 @@
+#icon{
+    background-position: center 10%;
+    z-index: -1;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    padding: 45%;
+    padding-top: 15%;
+}
+
+main button{
+    padding: 10px;
+    margin: 2px;
+    color: var(--text-color);
+    background-color: var(--accent-color);
+    border: 3px solid var(--darker-accent-color);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover{
+    filter: brightness(120%);
+}

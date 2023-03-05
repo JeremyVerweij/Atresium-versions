@@ -1,0 +1,76 @@
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow-y: scroll;
+    height: calc(100% - 208px);
+    width: 100%;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    padding-top: 5px;
+}
+
+footer{
+    height: 200px;
+    width: 100%;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    padding-top: 5px;
+    background-color: var(--accent-color);
+    border-top: 3px solid var(--darker-accent-color);
+}
+
+.listItem{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 25px;
+    background: scroll no-repeat center center;
+    background-size: 200px;
+    background-color: var(--accent-color);
+    image-rendering: pixelated;
+}
+
+.listItem:hover{
+    filter: brightness(70%);
+}
+
+.listItem.selected{
+    filter: brightness(150%);
+    border: 5px solid white;
+    margin: 5px;
+}
+
+.listItem .name {
+    padding: 10px;
+    background-color: var(--instance-text-background);
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+    word-wrap: break-word;
+    width: 180px;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background-color: var(--accent-color);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: var(--darker-accent-color);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(29, 37, 43);
+}

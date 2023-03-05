@@ -1,0 +1,22 @@
+body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    image-rendering: pixelated;
+    background: scroll center center;
+    background-size: 200px;
+    background-image: url(./back.png);
+}
+
+#logo{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    image-rendering: crisp-edges;
+    background: scroll no-repeat center 15%;
+    background-size: 800px;
+    background-image: url(./name.png);
+}
